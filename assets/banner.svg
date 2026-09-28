@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">iOS 26.5 Simulator on Windows</title>
+  <desc id="desc">Windows, VMware Workstation 26H1, macOS Tahoe 26, Xcode 26.6, iOS 26.5 Simulator</desc>
+  <style>
+    :root { --bg: #f6f8fa; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; --chip: #ffffff; --accent: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #30363d; --chip: #151b23; --accent: #4493f8; }
+    }
+    .bg { fill: var(--bg); }
+    .h1 { fill: var(--fg); font: 700 58px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: -1.5px; }
+    .h1 tspan.a { fill: var(--accent); }
+    .sub { fill: var(--muted); font: 400 24px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .chip { fill: var(--chip); stroke: var(--line); stroke-width: 1.5; }
+    .chip.last { stroke: var(--accent); stroke-width: 2; }
+    .k { fill: var(--muted); font: 500 14px ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace; letter-spacing: .5px; }
+    .v { fill: var(--fg); font: 600 20px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .v.a { fill: var(--accent); }
+    .arrow { stroke: var(--line); stroke-width: 2; fill: none; }
+    .grid { stroke: var(--line); stroke-width: 1; opacity: .5; }
+  </style>
+
+  <rect class="bg" width="1280" height="400"/>
+  <line class="grid" x1="0" y1="399.5" x2="1280" y2="399.5"/>
+
+  <text class="h1" x="64" y="128">iOS 26.5 Simulator <tspan class="a">on Windows</tspan></text>
+  <text class="sub" x="64" y="176">macOS Tahoe in VMware Workstation, Xcode 26.6 and a real Apple iPhone simulator on an Intel PC</text>
+
+  <g transform="translate(64 244)">
+    <rect class="chip" width="196" height="84" rx="12"/>
+    <text class="k" x="20" y="32">HOST</text>
+    <text class="v" x="20" y="62">Windows 10/11</text>
+
+    <path class="arrow" d="M204 42h20m-6-6 6 6-6 6"/>
+
+    <g transform="translate(232 0)">
+      <rect class="chip" width="196" height="84" rx="12"/>
+      <text class="k" x="20" y="32">HYPERVISOR</text>
+      <text class="v" x="20" y="62">VMware 26H1</text>
+    </g>
+
+    <path class="arrow" d="M436 42h20m-6-6 6 6-6 6"/>
+
+    <g transform="translate(464 0)">
+      <rect class="chip" width="196" height="84" rx="12"/>
+      <text class="k" x="20" y="32">GUEST OS</text>
+      <text class="v" x="20" y="62">macOS Tahoe 26</text>
+    </g>
+
+    <path class="arrow" d="M668 42h20m-6-6 6 6-6 6"/>
+
+    <g transform="translate(696 0)">
+      <rect class="chip" width="196" height="84" rx="12"/>
+      <text class="k" x="20" y="32">IDE</text>
+      <text class="v" x="20" y="62">Xcode 26.6</text>
+    </g>
+
+    <path class="arrow" d="M900 42h20m-6-6 6 6-6 6"/>
+
+    <g transform="translate(928 0)">
+      <rect class="chip last" width="224" height="84" rx="12"/>
+      <text class="k" x="20" y="32">RESULT</text>
+      <text class="v a" x="20" y="62">iOS 26.5 Simulator</text>
+    </g>
+  </g>
+</svg>

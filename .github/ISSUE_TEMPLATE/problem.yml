@@ -1,0 +1,33 @@
+name: Problem with a step / Проблема на шаге
+description: Something in the guide doesn't work for you / Что-то из инструкции у вас не работает
+labels: [question]
+body:
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage / Этап
+      options:
+        - 1. Prepare Windows / Подготовка Windows
+        - 2. VMware Workstation
+        - 3. Unlocker
+        - 4. Recovery image / Образ восстановления
+        - 5. Virtual machine / Виртуальная машина
+        - 6. Install macOS / Установка macOS
+        - 7. Post-install / После установки
+        - 8. Xcode and Simulator / Xcode и симулятор
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: CPU, RAM, Windows and VMware version / Процессор, ОЗУ, версии Windows и VMware
+      placeholder: Intel Core i7-12700, 32 GB, Windows 11 24H2, VMware 26H1
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened / Что произошло
+      description: Error text, screenshots, lines from vmware.log / Текст ошибки, скриншоты, строки из vmware.log
+    validations:
+      required: true
