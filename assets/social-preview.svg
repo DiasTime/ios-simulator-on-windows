@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title">
+  <title id="title">iOS 26.5 Simulator on Windows</title>
+  <style>
+    .bg { fill: #0d1117; }
+    .h1 { fill: #e6edf3; font: 700 76px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: -2px; }
+    .a { fill: #4493f8; }
+    .sub { fill: #9198a1; font: 400 28px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .chip { fill: #151b23; stroke: #30363d; stroke-width: 1.5; }
+    .chip.last { stroke: #4493f8; stroke-width: 2; }
+    .k { fill: #9198a1; font: 500 14px ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace; letter-spacing: .5px; }
+    .v { fill: #e6edf3; font: 600 21px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .v.a { fill: #4493f8; }
+    .arrow { stroke: #3d444d; stroke-width: 2; fill: none; }
+    .foot { fill: #9198a1; font: 500 20px ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace; }
+    .pill { fill: none; stroke: #30363d; stroke-width: 1.5; }
+    .pt { fill: #e6edf3; font: 600 18px -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  </style>
+
+  <rect class="bg" width="1280" height="640"/>
+
+  <text class="h1" x="80" y="178">iOS 26.5 Simulator</text>
+  <text class="h1 a" x="80" y="262">on Windows</text>
+  <text class="sub" x="80" y="322">macOS Tahoe in VMware + Xcode 26.6 on an Intel PC. Step-by-step guide.</text>
+
+  <g transform="translate(80 382)">
+    <rect class="chip" width="192" height="88" rx="12"/>
+    <text class="k" x="20" y="34">HOST</text>
+    <text class="v" x="20" y="65">Windows 10/11</text>
+    <path class="arrow" d="M198 44h18m-6-6 6 6-6 6"/>
+
+    <g transform="translate(222 0)">
+      <rect class="chip" width="192" height="88" rx="12"/>
+      <text class="k" x="20" y="34">HYPERVISOR</text>
+      <text class="v" x="20" y="65">VMware 26H1</text>
+    </g>
+    <path class="arrow" d="M420 44h18m-6-6 6 6-6 6"/>
+
+    <g transform="translate(444 0)">
+      <rect class="chip" width="192" height="88" rx="12"/>
+      <text class="k" x="20" y="34">GUEST OS</text>
+      <text class="v" x="20" y="65">macOS Tahoe 26</text>
+    </g>
+    <path class="arrow" d="M642 44h18m-6-6 6 6-6 6"/>
+
+    <g transform="translate(666 0)">
+      <rect class="chip" width="192" height="88" rx="12"/>
+      <text class="k" x="20" y="34">IDE</text>
+      <text class="v" x="20" y="65">Xcode 26.6</text>
+    </g>
+    <path class="arrow" d="M864 44h18m-6-6 6 6-6 6"/>
+
+    <g transform="translate(888 0)">
+      <rect class="chip last" width="232" height="88" rx="12"/>
+      <text class="k" x="20" y="34">RESULT</text>
+      <text class="v a" x="20" y="65">iOS 26.5 Simulator</text>
+    </g>
+  </g>
+
+  <text class="foot" x="80" y="566">github.com/DiasTime/ios-simulator-on-windows</text>
+  <g transform="translate(1040 540)">
+    <rect class="pill" width="160" height="38" rx="19"/>
+    <text class="pt" x="80" y="26" text-anchor="middle">EN · RU</text>
+  </g>
+</svg>
